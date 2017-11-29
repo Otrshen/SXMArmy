@@ -8,24 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		2719F17E1FCD056B000FE34E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2719F17D1FCD056B000FE34E /* AppDelegate.m */; };
-		2719F1811FCD056B000FE34E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2719F1801FCD056B000FE34E /* ViewController.m */; };
 		2719F1841FCD056B000FE34E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2719F1821FCD056B000FE34E /* Main.storyboard */; };
 		2719F1861FCD056B000FE34E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2719F1851FCD056B000FE34E /* Assets.xcassets */; };
 		2719F1891FCD056B000FE34E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2719F1871FCD056B000FE34E /* LaunchScreen.storyboard */; };
 		2719F18C1FCD056B000FE34E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2719F18B1FCD056B000FE34E /* main.m */; };
+		2719F1961FCD39E8000FE34E /* UIImage+SXMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2719F1951FCD39E8000FE34E /* UIImage+SXMAdd.m */; };
+		2719F19C1FCD4C4A000FE34E /* SXMRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2719F19B1FCD4C4A000FE34E /* SXMRootTableViewController.m */; };
+		2719F1A01FCD4CBF000FE34E /* SXMImageExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 2719F19F1FCD4CBF000FE34E /* SXMImageExample.m */; };
+		2719F1A41FCD519C000FE34E /* SXMBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2719F1A31FCD519C000FE34E /* SXMBaseTableViewController.m */; };
+		2719F1A81FCD5377000FE34E /* SXMImageCategoryExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 2719F1A61FCD5377000FE34E /* SXMImageCategoryExample.m */; };
+		2719F1A91FCD5377000FE34E /* SXMImageCategoryExample.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2719F1A71FCD5377000FE34E /* SXMImageCategoryExample.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2719F1791FCD056B000FE34E /* SXMArmyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SXMArmyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2719F17C1FCD056B000FE34E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2719F17D1FCD056B000FE34E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2719F17F1FCD056B000FE34E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2719F1801FCD056B000FE34E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2719F1831FCD056B000FE34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2719F1851FCD056B000FE34E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2719F1881FCD056B000FE34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2719F18A1FCD056B000FE34E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2719F18B1FCD056B000FE34E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2719F1941FCD39E8000FE34E /* UIImage+SXMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SXMAdd.h"; sourceTree = "<group>"; };
+		2719F1951FCD39E8000FE34E /* UIImage+SXMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SXMAdd.m"; sourceTree = "<group>"; };
+		2719F19A1FCD4C4A000FE34E /* SXMRootTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMRootTableViewController.h; sourceTree = "<group>"; };
+		2719F19B1FCD4C4A000FE34E /* SXMRootTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMRootTableViewController.m; sourceTree = "<group>"; };
+		2719F19E1FCD4CBF000FE34E /* SXMImageExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMImageExample.h; sourceTree = "<group>"; };
+		2719F19F1FCD4CBF000FE34E /* SXMImageExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMImageExample.m; sourceTree = "<group>"; };
+		2719F1A11FCD4CDE000FE34E /* SXMArmy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMArmy.h; sourceTree = "<group>"; };
+		2719F1A21FCD519C000FE34E /* SXMBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMBaseTableViewController.h; sourceTree = "<group>"; };
+		2719F1A31FCD519C000FE34E /* SXMBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMBaseTableViewController.m; sourceTree = "<group>"; };
+		2719F1A51FCD5377000FE34E /* SXMImageCategoryExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMImageCategoryExample.h; sourceTree = "<group>"; };
+		2719F1A61FCD5377000FE34E /* SXMImageCategoryExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMImageCategoryExample.m; sourceTree = "<group>"; };
+		2719F1A71FCD5377000FE34E /* SXMImageCategoryExample.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXMImageCategoryExample.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +57,7 @@
 		2719F1701FCD056B000FE34E = {
 			isa = PBXGroup;
 			children = (
+				2719F1921FCD3143000FE34E /* SXMArmy */,
 				2719F17B1FCD056B000FE34E /* SXMArmyDemo */,
 				2719F17A1FCD056B000FE34E /* Products */,
 			);
@@ -60,15 +76,49 @@
 			children = (
 				2719F17C1FCD056B000FE34E /* AppDelegate.h */,
 				2719F17D1FCD056B000FE34E /* AppDelegate.m */,
-				2719F17F1FCD056B000FE34E /* ViewController.h */,
-				2719F1801FCD056B000FE34E /* ViewController.m */,
+				2719F1A21FCD519C000FE34E /* SXMBaseTableViewController.h */,
+				2719F1A31FCD519C000FE34E /* SXMBaseTableViewController.m */,
+				2719F19A1FCD4C4A000FE34E /* SXMRootTableViewController.h */,
+				2719F19B1FCD4C4A000FE34E /* SXMRootTableViewController.m */,
 				2719F1821FCD056B000FE34E /* Main.storyboard */,
+				2719F19D1FCD4C80000FE34E /* Image */,
 				2719F1851FCD056B000FE34E /* Assets.xcassets */,
 				2719F1871FCD056B000FE34E /* LaunchScreen.storyboard */,
 				2719F18A1FCD056B000FE34E /* Info.plist */,
 				2719F18B1FCD056B000FE34E /* main.m */,
 			);
 			path = SXMArmyDemo;
+			sourceTree = "<group>";
+		};
+		2719F1921FCD3143000FE34E /* SXMArmy */ = {
+			isa = PBXGroup;
+			children = (
+				2719F1A11FCD4CDE000FE34E /* SXMArmy.h */,
+				2719F1931FCD3143000FE34E /* Category */,
+			);
+			name = SXMArmy;
+			path = ../../SXMArmy;
+			sourceTree = "<group>";
+		};
+		2719F1931FCD3143000FE34E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2719F1941FCD39E8000FE34E /* UIImage+SXMAdd.h */,
+				2719F1951FCD39E8000FE34E /* UIImage+SXMAdd.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2719F19D1FCD4C80000FE34E /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				2719F19E1FCD4CBF000FE34E /* SXMImageExample.h */,
+				2719F19F1FCD4CBF000FE34E /* SXMImageExample.m */,
+				2719F1A51FCD5377000FE34E /* SXMImageCategoryExample.h */,
+				2719F1A61FCD5377000FE34E /* SXMImageCategoryExample.m */,
+				2719F1A71FCD5377000FE34E /* SXMImageCategoryExample.xib */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2719F1891FCD056B000FE34E /* LaunchScreen.storyboard in Resources */,
+				2719F1A91FCD5377000FE34E /* SXMImageCategoryExample.xib in Resources */,
 				2719F1861FCD056B000FE34E /* Assets.xcassets in Resources */,
 				2719F1841FCD056B000FE34E /* Main.storyboard in Resources */,
 			);
@@ -142,9 +193,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2719F1811FCD056B000FE34E /* ViewController.m in Sources */,
+				2719F1A81FCD5377000FE34E /* SXMImageCategoryExample.m in Sources */,
+				2719F1961FCD39E8000FE34E /* UIImage+SXMAdd.m in Sources */,
 				2719F18C1FCD056B000FE34E /* main.m in Sources */,
+				2719F1A01FCD4CBF000FE34E /* SXMImageExample.m in Sources */,
+				2719F19C1FCD4C4A000FE34E /* SXMRootTableViewController.m in Sources */,
 				2719F17E1FCD056B000FE34E /* AppDelegate.m in Sources */,
+				2719F1A41FCD519C000FE34E /* SXMBaseTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -279,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PVK52JS2;
 				INFOPLIST_FILE = SXMArmyDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sxm.SXMArmyDemo;
@@ -292,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PVK52JS2;
 				INFOPLIST_FILE = SXMArmyDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sxm.SXMArmyDemo;

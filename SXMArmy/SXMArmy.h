@@ -1,15 +1,14 @@
 //
-//  ViewController.h
+//  SXMArmy.h
 //  SXMArmyDemo
 //
 //  Created by syn on 2017/11/28.
 //  Copyright © 2017年 sxm. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#ifndef SXMArmy_h
+#define SXMArmy_h
 
-@interface ViewController : UIViewController
+#import "UIImage+SXMAdd.h"
 
-
-@end
-
+#endif /* SXMArmy_h */

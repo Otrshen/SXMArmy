@@ -58,7 +58,7 @@
     if (image == nil) {
         titleLabelX = (KScreenWidth - titleSize.width) / 2;
         if (kiPhoneX) {
-            titleLabelY = ([self pm_getBgViewHeight] - titleSize.height - 5);
+            titleLabelY = [self pm_getBgViewHeight] - titleSize.height - 5;
         } else {
             titleLabelY = ([self pm_getBgViewHeight] - titleSize.height) / 2;
         }
@@ -69,11 +69,21 @@
         CGFloat margin = 5; // 图片与文字的间距
         CGSize imageSize = [self pm_getImageSize];
         CGFloat imageViewX = (KScreenWidth - (imageSize.width + titleSize.width + margin)) / 2;
-        CGFloat imageViewY = ([self pm_getBgViewHeight] - imageSize.height) / 2;
+        CGFloat imageViewY = 0;
+        if (kiPhoneX) {
+            imageViewY = [self pm_getBgViewHeight] - imageSize.height - 5;
+        } else {
+            imageViewY = ([self pm_getBgViewHeight] - imageSize.height) / 2;
+        }
         self.icon.frame = (CGRect){{imageViewX, imageViewY}, imageSize};
         
         titleLabelX = CGRectGetMaxX(self.icon.frame) + margin;
-        titleLabelY = ([self pm_getBgViewHeight] - titleSize.height) / 2;
+        if (kiPhoneX) {
+            titleLabelY = [self pm_getBgViewHeight] - titleSize.height - 7;
+        } else {
+            titleLabelY = ([self pm_getBgViewHeight] - titleSize.height) / 2;
+        }
+        
         _titleLabel.frame = (CGRect){{titleLabelX, titleLabelY}, titleSize};
     }
     
@@ -127,7 +137,7 @@
     if (kiPhoneX) {
         return CGSizeMake(20, 20);
     } else {
-        return CGSizeMake(10, 10);
+        return CGSizeMake(15, 15);
     }
 }
 
@@ -139,7 +149,6 @@
         _bgView = [[UIView alloc] initWithFrame:CGRectMake(0, -([self pm_getBgViewHeight]), KScreenWidth, [self pm_getBgViewHeight])];
         UIView *statusBar = [[[UIApplication sharedApplication] valueForKey:@"statusBarWindow"] valueForKey:@"statusBar"];
         [statusBar addSubview:_bgView];
-        return _bgView;
     }
     return _bgView;
 }
@@ -159,7 +168,6 @@
         _icon = [[UIImageView alloc] init];
         _icon.bounds = CGRectMake(0, 0, [self pm_getImageSize].width, [self pm_getImageSize].height);
         [self.bgView addSubview:_icon];
-        return _icon;
     }
     return _icon;
 }

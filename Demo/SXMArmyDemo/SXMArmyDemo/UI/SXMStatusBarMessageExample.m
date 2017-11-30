@@ -23,7 +23,7 @@
 - (IBAction)show:(id)sender {
     UIImage *image = [UIImage imageNamed:@"shield"];
 //    UIColor *bgColor = [UIColor colorWithRed:(209 / 255.0) green:(239 / 255.0) blue:(214 / 255.0) alpha:1];
-    UIColor *bgColor = [UIColor blackColor];
+    UIColor *bgColor = [UIColor grayColor];
     [SXMStatusBarMessageView sxm_showNotificationWithTitle:@"欢迎使用SXMArmy" titleColor:nil titleFont:nil image:image bgColor:bgColor];
 }
 

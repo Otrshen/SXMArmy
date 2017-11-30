@@ -18,6 +18,10 @@
 		2719F1A41FCD519C000FE34E /* SXMBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2719F1A31FCD519C000FE34E /* SXMBaseTableViewController.m */; };
 		2719F1A81FCD5377000FE34E /* SXMImageCategoryExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 2719F1A61FCD5377000FE34E /* SXMImageCategoryExample.m */; };
 		2719F1A91FCD5377000FE34E /* SXMImageCategoryExample.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2719F1A71FCD5377000FE34E /* SXMImageCategoryExample.xib */; };
+		27F9A1AA1FCEB1D200E9FF2F /* SXMStatusBarMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F9A1A91FCEB1D200E9FF2F /* SXMStatusBarMessageView.m */; };
+		27F9A1AE1FCEC35500E9FF2F /* SXMUIExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F9A1AD1FCEC35500E9FF2F /* SXMUIExample.m */; };
+		27F9A1B21FCF981200E9FF2F /* SXMStatusBarMessageExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F9A1B01FCF981200E9FF2F /* SXMStatusBarMessageExample.m */; };
+		27F9A1B31FCF981200E9FF2F /* SXMStatusBarMessageExample.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F9A1B11FCF981200E9FF2F /* SXMStatusBarMessageExample.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,13 @@
 		2719F1A51FCD5377000FE34E /* SXMImageCategoryExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMImageCategoryExample.h; sourceTree = "<group>"; };
 		2719F1A61FCD5377000FE34E /* SXMImageCategoryExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMImageCategoryExample.m; sourceTree = "<group>"; };
 		2719F1A71FCD5377000FE34E /* SXMImageCategoryExample.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXMImageCategoryExample.xib; sourceTree = "<group>"; };
+		27F9A1A81FCEB1D200E9FF2F /* SXMStatusBarMessageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMStatusBarMessageView.h; sourceTree = "<group>"; };
+		27F9A1A91FCEB1D200E9FF2F /* SXMStatusBarMessageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMStatusBarMessageView.m; sourceTree = "<group>"; };
+		27F9A1AC1FCEC35500E9FF2F /* SXMUIExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMUIExample.h; sourceTree = "<group>"; };
+		27F9A1AD1FCEC35500E9FF2F /* SXMUIExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMUIExample.m; sourceTree = "<group>"; };
+		27F9A1AF1FCF981200E9FF2F /* SXMStatusBarMessageExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMStatusBarMessageExample.h; sourceTree = "<group>"; };
+		27F9A1B01FCF981200E9FF2F /* SXMStatusBarMessageExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMStatusBarMessageExample.m; sourceTree = "<group>"; };
+		27F9A1B11FCF981200E9FF2F /* SXMStatusBarMessageExample.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXMStatusBarMessageExample.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +93,7 @@
 				2719F19B1FCD4C4A000FE34E /* SXMRootTableViewController.m */,
 				2719F1821FCD056B000FE34E /* Main.storyboard */,
 				2719F19D1FCD4C80000FE34E /* Image */,
+				27F9A1AB1FCEC32000E9FF2F /* UI */,
 				2719F1851FCD056B000FE34E /* Assets.xcassets */,
 				2719F1871FCD056B000FE34E /* LaunchScreen.storyboard */,
 				2719F18A1FCD056B000FE34E /* Info.plist */,
@@ -95,6 +107,7 @@
 			children = (
 				2719F1A11FCD4CDE000FE34E /* SXMArmy.h */,
 				2719F1931FCD3143000FE34E /* Category */,
+				27F9A1A61FCEB15A00E9FF2F /* UI */,
 			);
 			name = SXMArmy;
 			path = ../../SXMArmy;
@@ -119,6 +132,35 @@
 				2719F1A71FCD5377000FE34E /* SXMImageCategoryExample.xib */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		27F9A1A61FCEB15A00E9FF2F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				27F9A1A71FCEB17800E9FF2F /* SXMStatusBarMessage */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		27F9A1A71FCEB17800E9FF2F /* SXMStatusBarMessage */ = {
+			isa = PBXGroup;
+			children = (
+				27F9A1A81FCEB1D200E9FF2F /* SXMStatusBarMessageView.h */,
+				27F9A1A91FCEB1D200E9FF2F /* SXMStatusBarMessageView.m */,
+			);
+			path = SXMStatusBarMessage;
+			sourceTree = "<group>";
+		};
+		27F9A1AB1FCEC32000E9FF2F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				27F9A1AC1FCEC35500E9FF2F /* SXMUIExample.h */,
+				27F9A1AD1FCEC35500E9FF2F /* SXMUIExample.m */,
+				27F9A1AF1FCF981200E9FF2F /* SXMStatusBarMessageExample.h */,
+				27F9A1B01FCF981200E9FF2F /* SXMStatusBarMessageExample.m */,
+				27F9A1B11FCF981200E9FF2F /* SXMStatusBarMessageExample.xib */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +189,7 @@
 		2719F1711FCD056B000FE34E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SXM;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = sxm;
 				TargetAttributes = {
@@ -180,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2719F1891FCD056B000FE34E /* LaunchScreen.storyboard in Resources */,
+				27F9A1B31FCF981200E9FF2F /* SXMStatusBarMessageExample.xib in Resources */,
 				2719F1A91FCD5377000FE34E /* SXMImageCategoryExample.xib in Resources */,
 				2719F1861FCD056B000FE34E /* Assets.xcassets in Resources */,
 				2719F1841FCD056B000FE34E /* Main.storyboard in Resources */,
@@ -193,11 +237,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F9A1AE1FCEC35500E9FF2F /* SXMUIExample.m in Sources */,
 				2719F1A81FCD5377000FE34E /* SXMImageCategoryExample.m in Sources */,
 				2719F1961FCD39E8000FE34E /* UIImage+SXMAdd.m in Sources */,
 				2719F18C1FCD056B000FE34E /* main.m in Sources */,
 				2719F1A01FCD4CBF000FE34E /* SXMImageExample.m in Sources */,
+				27F9A1B21FCF981200E9FF2F /* SXMStatusBarMessageExample.m in Sources */,
 				2719F19C1FCD4C4A000FE34E /* SXMRootTableViewController.m in Sources */,
+				27F9A1AA1FCEB1D200E9FF2F /* SXMStatusBarMessageView.m in Sources */,
 				2719F17E1FCD056B000FE34E /* AppDelegate.m in Sources */,
 				2719F1A41FCD519C000FE34E /* SXMBaseTableViewController.m in Sources */,
 			);

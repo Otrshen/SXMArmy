@@ -23,6 +23,7 @@
     self.classNames = [NSMutableArray array];
     
     [self addCell:@"Image" class:@"SXMImageExample"];
+    [self addCell:@"UI" class:@"SXMUIExample"];
 }
 
 @end

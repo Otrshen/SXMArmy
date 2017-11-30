@@ -9,6 +9,18 @@
 #ifndef SXMArmy_h
 #define SXMArmy_h
 
+#if __has_include(<YYKit/YYKit.h>)
+
+#import <SXMArmy/UIImage+SXMAdd.h>
+
+#import <SXMArmy/SXMStatusBarMessageView.h>
+
+#else
+
 #import "UIImage+SXMAdd.h"
+
+#import "SXMStatusBarMessageView.h"
+
+#endif
 
 #endif /* SXMArmy_h */

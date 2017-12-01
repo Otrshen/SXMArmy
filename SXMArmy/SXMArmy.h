@@ -9,7 +9,7 @@
 #ifndef SXMArmy_h
 #define SXMArmy_h
 
-#if __has_include(<YYKit/YYKit.h>)
+#if __has_include(<SXMArmy/SXMArmy.h>)
 
 #import <SXMArmy/UIImage+SXMAdd.h>
 

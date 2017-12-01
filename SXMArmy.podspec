@@ -13,9 +13,20 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/LarkNan/SXMArmy.git", :tag => "#{s.version}" }
 
-  s.source_files = 'SXMArmy/**/*.{h,m}'
-  s.public_header_files = 'SXMArmy/**/*.{h}'
+  #s.source_files = 'SXMArmy/**/*.{h,m}'
+  #s.public_header_files = 'SXMArmy/**/*.{h}'
 
   s.requires_arc = true
+
+  s.subspec 'Category' do |ss|
+    ss.public_header_files = 'SXMArmy/SXMArmy.h'
+    ss.source_files = 'SXMArmy/Category/**'
+  end
+
+  s.subspec 'UI' do |ss|
+    ss.source_files = 'SXMArmy/UI/**'
+  end
+
+  s.default_subspec = 'Category'
 
 end

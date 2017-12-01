@@ -39,12 +39,12 @@
 		2719F19B1FCD4C4A000FE34E /* SXMRootTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMRootTableViewController.m; sourceTree = "<group>"; };
 		2719F19E1FCD4CBF000FE34E /* SXMImageExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMImageExample.h; sourceTree = "<group>"; };
 		2719F19F1FCD4CBF000FE34E /* SXMImageExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMImageExample.m; sourceTree = "<group>"; };
-		2719F1A11FCD4CDE000FE34E /* SXMArmy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMArmy.h; sourceTree = "<group>"; };
 		2719F1A21FCD519C000FE34E /* SXMBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMBaseTableViewController.h; sourceTree = "<group>"; };
 		2719F1A31FCD519C000FE34E /* SXMBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMBaseTableViewController.m; sourceTree = "<group>"; };
 		2719F1A51FCD5377000FE34E /* SXMImageCategoryExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMImageCategoryExample.h; sourceTree = "<group>"; };
 		2719F1A61FCD5377000FE34E /* SXMImageCategoryExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMImageCategoryExample.m; sourceTree = "<group>"; };
 		2719F1A71FCD5377000FE34E /* SXMImageCategoryExample.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXMImageCategoryExample.xib; sourceTree = "<group>"; };
+		27BE8ADF1FD13AE900217831 /* SXMArmy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMArmy.h; sourceTree = "<group>"; };
 		27F9A1A81FCEB1D200E9FF2F /* SXMStatusBarMessageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMStatusBarMessageView.h; sourceTree = "<group>"; };
 		27F9A1A91FCEB1D200E9FF2F /* SXMStatusBarMessageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMStatusBarMessageView.m; sourceTree = "<group>"; };
 		27F9A1AC1FCEC35500E9FF2F /* SXMUIExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMUIExample.h; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		2719F1921FCD3143000FE34E /* SXMArmy */ = {
 			isa = PBXGroup;
 			children = (
-				2719F1A11FCD4CDE000FE34E /* SXMArmy.h */,
+				27BE8ADE1FD13AE900217831 /* Common */,
 				2719F1931FCD3143000FE34E /* Category */,
 				27F9A1A61FCEB15A00E9FF2F /* UI */,
 			);
@@ -132,6 +132,14 @@
 				2719F1A71FCD5377000FE34E /* SXMImageCategoryExample.xib */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		27BE8ADE1FD13AE900217831 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				27BE8ADF1FD13AE900217831 /* SXMArmy.h */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		27F9A1A61FCEB15A00E9FF2F /* UI */ = {

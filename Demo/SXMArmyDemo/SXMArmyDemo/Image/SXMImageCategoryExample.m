@@ -11,6 +11,7 @@
 
 @interface SXMImageCategoryExample ()
 @property (weak, nonatomic) IBOutlet UIImageView *testImage;
+@property (weak, nonatomic) IBOutlet UIImageView *compressImage;
 
 @end
 
@@ -21,7 +22,25 @@
     
 //    self.testImage.image = [UIImage sxm_imageWithBgImageName:@"test.png" logoImageName:@"logo_120.png" logoLocation:SXMLocationLowerLeftCorner];
 
-    self.testImage.image = [UIImage sxm_imageWithBgImageName:@"test.png" title:@"@sxm" titleFont:nil titleColor:nil logoLocation:SXMLocationLowerLeftCorner];
+    self.testImage.image = [UIImage sxm_imageWithBgImageName:@"test" title:@"@sxm" titleFont:nil titleColor:nil logoLocation:SXMLocationLowerLeftCorner];
+    
+    self.compressImage.backgroundColor = [UIColor lightGrayColor];
+}
+
+- (IBAction)compressImage:(id)sender {
+    UIImage *image = [UIImage imageNamed:@"test"];
+    UIImage *newImage = [image sxm_thumbnailWithSize:CGSizeMake(200, 150)];
+    self.compressImage.image = newImage;
+
+    // 将图片写到文件中
+    NSString *path = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"compress.png"];
+    NSLog(@"%@", path);
+    
+    NSData *data = UIImageJPEGRepresentation(newImage, 0.1);
+    if (data == nil) {
+        data = UIImagePNGRepresentation(newImage);
+    }
+    [data writeToFile:path atomically:YES];
 }
 
 @end

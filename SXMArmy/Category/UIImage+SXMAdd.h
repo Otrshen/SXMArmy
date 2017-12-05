@@ -25,7 +25,7 @@ typedef NS_ENUM(NSInteger, SXMLocation) {
  @param location 水印位置
  @return 图片
  */
-+ (instancetype)sxm_imageWithBgImageName:(NSString *)bgImageName logoImageName:(NSString *)logoImageName logoLocation:(SXMLocation)location;
++ (nullable instancetype)sxm_imageWithBgImageName:(NSString *)bgImageName logoImageName:(NSString *)logoImageName logoLocation:(SXMLocation)location;
 
 /**
  添加文字水印
@@ -35,7 +35,32 @@ typedef NS_ENUM(NSInteger, SXMLocation) {
  @param location 水印位置
  @return 图片
  */
-+ (instancetype)sxm_imageWithBgImageName:(NSString *)bgImageName title:(NSString *)title titleFont:(nullable UIFont *)titleFont titleColor:(nullable UIColor *)titleColor logoLocation:(SXMLocation)location;
++ (nullable instancetype)sxm_imageWithBgImageName:(NSString *)bgImageName title:(NSString *)title titleFont:(nullable UIFont *)titleFont titleColor:(nullable UIColor *)titleColor logoLocation:(SXMLocation)location;
+
+/**
+ 根据原图生成指定尺寸的缩略图
+ 原图如不符合指定尺寸的比例，则先根据指定尺寸的比例剪切原图再压缩图片。
+
+ @param size 指定尺寸
+ @return 图片
+ */
+- (nullable instancetype)sxm_thumbnailWithSize:(CGSize)size;
+
+/**
+ 根据指定位置剪切原图
+
+ @param rect 指定位置
+ @return 图片
+ */
+- (nullable instancetype)sxm_clipImageWithRect:(CGRect)rect;
+
+/**
+ 根据指定大小压缩图片，不考虑图片比例
+
+ @param size 指定大小
+ @return 图片
+ */
+- (nullable instancetype)sxm_compressWithSize:(CGSize)size;
 
 @end
 

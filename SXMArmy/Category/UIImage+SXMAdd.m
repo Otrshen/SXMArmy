@@ -7,6 +7,9 @@
 //
 
 #import "UIImage+SXMAdd.h"
+#import "SXMArmyMacro.h"
+
+SXMSYNTH_DUMMY_CLASS(UIImage_SXMAdd)
 
 @implementation UIImage (SXMAdd)
 

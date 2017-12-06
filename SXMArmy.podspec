@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/LarkNan/SXMArmy.git", :tag => "#{s.version}" }
 
-  s.source_files = 'SXMArmy/**/*'
+  s.source_files = 'SXMArmy/**/*.{h,m}'
   s.public_header_files = 'SXMArmy/**/*.{h}'
 
   s.requires_arc = true

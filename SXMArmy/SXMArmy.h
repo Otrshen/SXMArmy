@@ -12,12 +12,14 @@
 #if __has_include(<SXMArmy/SXMArmy.h>)
 
 #import <SXMArmy/UIImage+SXMAdd.h>
+#import <SXMArmy/UIView+SXMAdd.h>
 
 #import <SXMArmy/SXMStatusBarMessageView.h>
 
 #else
 
 #import "UIImage+SXMAdd.h"
+#import "UIView+SXMAdd.h"
 
 #import "SXMStatusBarMessageView.h"
 

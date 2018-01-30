@@ -22,6 +22,7 @@
 		27F9A1AE1FCEC35500E9FF2F /* SXMUIExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F9A1AD1FCEC35500E9FF2F /* SXMUIExample.m */; };
 		27F9A1B21FCF981200E9FF2F /* SXMStatusBarMessageExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F9A1B01FCF981200E9FF2F /* SXMStatusBarMessageExample.m */; };
 		27F9A1B31FCF981200E9FF2F /* SXMStatusBarMessageExample.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F9A1B11FCF981200E9FF2F /* SXMStatusBarMessageExample.xib */; };
+		634DC33620200E43001E4377 /* UIView+SXMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 634DC33520200E43001E4377 /* UIView+SXMAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,8 @@
 		27F9A1AF1FCF981200E9FF2F /* SXMStatusBarMessageExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMStatusBarMessageExample.h; sourceTree = "<group>"; };
 		27F9A1B01FCF981200E9FF2F /* SXMStatusBarMessageExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMStatusBarMessageExample.m; sourceTree = "<group>"; };
 		27F9A1B11FCF981200E9FF2F /* SXMStatusBarMessageExample.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXMStatusBarMessageExample.xib; sourceTree = "<group>"; };
+		634DC33420200E43001E4377 /* UIView+SXMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SXMAdd.h"; sourceTree = "<group>"; };
+		634DC33520200E43001E4377 /* UIView+SXMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SXMAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 		2719F1931FCD3143000FE34E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				634DC33420200E43001E4377 /* UIView+SXMAdd.h */,
+				634DC33520200E43001E4377 /* UIView+SXMAdd.m */,
 				2719F1941FCD39E8000FE34E /* UIImage+SXMAdd.h */,
 				2719F1951FCD39E8000FE34E /* UIImage+SXMAdd.m */,
 			);
@@ -241,6 +246,7 @@
 			files = (
 				27F9A1AE1FCEC35500E9FF2F /* SXMUIExample.m in Sources */,
 				2719F1A81FCD5377000FE34E /* SXMImageCategoryExample.m in Sources */,
+				634DC33620200E43001E4377 /* UIView+SXMAdd.m in Sources */,
 				2719F1961FCD39E8000FE34E /* UIImage+SXMAdd.m in Sources */,
 				2719F18C1FCD056B000FE34E /* main.m in Sources */,
 				2719F1A01FCD4CBF000FE34E /* SXMImageExample.m in Sources */,

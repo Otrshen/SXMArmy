@@ -14,6 +14,11 @@ typedef void (^SXMWhenTappedBlock)(void);
 
 @interface UIView (SXMAdd)
 
+/**
+ 给View添加单击事件
+
+ @param block 单击后回调
+ */
 - (void)sxm_whenTapped:(SXMWhenTappedBlock)block;
 
 @end
